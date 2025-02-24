@@ -24,7 +24,7 @@ const StyledContainer = styled.main`
     flex-direction: column;
     max-width: 20rem;
     overflow: visible;
-    height: 25rem;
+    height: 27.5rem;
   }
 `;
 

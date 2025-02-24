@@ -21,6 +21,10 @@ const GlobalStyles = createGlobalStyle`
     src: url("./fonts/Ubuntu-Regular.ttf");
 }
 
+html{
+    font-size: 105%;
+}
+
 *{
     padding: 0;
     margin: 0;

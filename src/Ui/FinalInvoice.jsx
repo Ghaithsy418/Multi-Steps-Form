@@ -44,6 +44,10 @@ const FirstPrice = styled.span`
 
 const OtherPrices = styled.span`
   color: var(--color-marine-blue);
+
+  @media(max-width:46.3rem){
+    font-size: 0.6rem;
+  }
 `;
 
 const TotalPrice = styled.span`
