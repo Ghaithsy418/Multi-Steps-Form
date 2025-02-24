@@ -89,6 +89,10 @@ const Price = styled.span`
 const FreeContent = styled.p`
   color: var(--color-purplish-blue);
   font-size: 0.9rem;
+
+  @media(max-width:46.3rem){
+   font-size: 0.6rem; 
+  }
 `;
 
 function Plan({ icon, title, price }) {
